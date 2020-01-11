@@ -12,117 +12,124 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <!-- navbar container per https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
     <div class="container">
-      <!-- Responsive nav bar -->
-      <nav class="navbar navbar-expand-sm-md-lg">
-        <div class="navbar-brand">Kyle Dove</div>
-        <!-- navbar moving all links to right -->
-        <div class="d-flex justify-content-end">
-          <!-- id" tags can be used for accesibility features in the future -->
-          <id navbarcontent></id>
-        </div>
-        <!-- allign items to right in navbar -->
-        <div class="d-flex align-items-end" id="navbar-links">
-          <div class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+        <!-- Responsive nav bar -->
+        <nav class="navbar navbar-expand-sm-md-lg">
+          <div class="navbar-brand">Kyle Dove</div>
+          <!-- navbar moving all links to right -->
+          <div class="d-flex justify-content-end">
+            <!-- id" tags can be used for accesibility features in the future -->
+            <id navbarcontent></id>
           </div>
-          <div class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <br />
-    <!-- container spans 12 columns for "Portfolio" label -->
-    <div class="container pt-3p-3 my-3 border background-color-white">
-        <div class=“row”>
-          <div class=“col-md-12”>
-            <div class=“page-header”>
-              <h2 class="h2-responsive font-weight-bold my-4">Portfolio</h2>
-              <hr>
+          <!-- allign items to right in navbar -->
+          <div class="d-flex align-items-end" id="navbar-links">
+            <div class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </div>
           </div>
-        </div>
-      <!-- card group responsive card layout -->
-      <!-- first card -->
-      <div class="card-group">
-        <div class="card">
-              <div class="card text-black bg-darkmb-3text-center">
-                <img src="assets\images\image296.png"
-                  class="card-img-top" alt="Grocery Point os Sale" id="Gware Pro">
-                  <div class="card-footer" card-title="Gware Grocery Retail Pro">
-                    <h5>Gware Register</h5>
-                  </div>
-                </div>
-              </div>
-          </div>
-            <!-- second card -->
-            <div class="card">
-              <div class=“card-text-whitebg-dark-mb-3">
-                <img src="assets\images\image299.png"
-                class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
-                <div class="card-img-overlay">
-                  <div class="card-footer" card-title="Gware Label Pro">
-                    <h5>Gware Label Pro</h5>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- third card -->
-          <div class="card">
-              <div class=“card-text-whitebg-dark-mb-3text-center”
-                style=“max-width:18rem;“>
-                <img src="assets\images\image327.png"
-                class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
-                <div class="card-img-overlay">
-                  <div class="card-footer" card-title="Gware ">
-                    <h5>Gware Deli Pro</h5>
-                  </div>
-                </div>
-              </div>
-          </div>
-              <!-- fourth card -->
-              <div class="card">
-                <div class=“card-text-whitebg-dark-mb-3text-center” style=“max-width:18rem;“>
-                  <img src="assets\images\image324.png"
-                  class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
-                  <div class="card-img-overlay">
-                    <div class="card-footer" card-title="Gware Grocery Retail Pro">
-                      <h5>Gware Bakery Pro<h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!-- fifth card -->
-            <div class="card">
-              <div class=“card-text-whitebg-dark-mb-3text-center” style=“max-width:18rem;“>
-                <img src="assets\images\image307.png"
-                class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
-                <div class="card-img-overlay">
-                  <div class="card-footer" card-title="Gware Grocery Retail Pro">
-                    <h5>Gware Butcher Pro<h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-        <!-- sixth card -->
-        <div class="card">
-          <div class=“card-text-whitebg-dark-mb-3text-center” style=“max-width:18rem;“>
-            <img src="assets\images\image299.png"
-            class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
-            <div class="card-img-overlay">
-              <div class="card-footer" card-title="Gware Grocery Retail Pro">
-                <h5>Gware Butcher Pro<h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      <!-- this is the div ending for the <div class="card-group", all cards between are part of the group-->
+        </nav>
       </div>
+      <br />
+    <div class="container-fluid mt-4">
+      <div class="row justify-content-center">
+        <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Gware Label Pro</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Gware Label Pro</h6>
+              <picture class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro" img src="assets\images\image299.png">
+              </picture>
+              <a href="http://grsweigh.com" class="card-link">Gware</a>
+              <a href="http://paayyware.com" class="card-link">Paayy Ware</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Gware Deli Pro</h6>
+              <picture class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro" img src="assets\images\image327.png">
+              </picture>
+              <a href="http://grsweigh.com" class="card-link">Gware</a>
+              <a href="http://paayyware.com" class="card-link">Paayy Ware</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <picture class="card-img-top" alt="Grocery Point os Sale" id="Gware Pro">
+                <img src="assets\images\image296.png">
+              </picture>>
+              <a href="http://grsweigh.com" class="card-link">Gware</a>
+              <a href="http://paayyware.com" class="card-link">Paayy Ware</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <picture  class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
+                <img src="assets\images\image324.png">
+            </picture>
+              <a href="http://grsweigh.com">class="card-link">Gware</a>
+              <a href="http://paayyware.com" class="card-link">Paayy Ware</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <picture class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro">
+                <img src="assets\images\image307.png">
+              </picture>
+                <a href="http://grsweigh.com">class="card-link">Gware</a>
+                <a href="http://paayyware.com" class="card-link">Paayy Ware</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-auto mb-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <picture class="card-img-top" alt="Gware Label Pro" id="Gware Label Pro"> 
+                  <img src="assets\images\image299.png">
+                </picture>
+                <a href="http://grsweigh.com">class="card-link">Gware</a>
+                <a href="http://paayyware.com" class="card-link">Paayy Ware</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-auto mb-3"> 
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <br/>
     <br/>
     <br/>
